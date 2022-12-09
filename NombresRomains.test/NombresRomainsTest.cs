@@ -57,15 +57,66 @@ namespace NombresRomains.test
         [InlineData(16)]
         [InlineData(17)]
         [InlineData(18)]
-        public void TestUnité15161718(int nombreArabe)
+        public void TestQuinzePLusunité(int nombreArabe)
         {
             // ETANT DONNE un nombre <n> compris entre 15 et 18
             // QUAND on le convertit en nombre romain
             var resultat = ConvertisseurNombresRomains.Convertir(nombreArabe);
-            // ALORS on obtient "XV" suivi de <n> fois 'I'
+            // ALORS on obtient 'XV' plus <nombreArabe> -15> fois 'I'
             var attendu = "XV" + new string('I', nombreArabe - 15);
            
         }
+
+        [Theory]
+        [InlineData(20)]
+        [InlineData(21)]
+        [InlineData(22)]
+        [InlineData(23)]
+        public void vingtPLusunité(int nombreArabe)
+        {
+            // ETANT DONNE un nombre compris entre 20 et 23
+            // QUAND on le convertit en nombre romain
+            var resultat = ConvertisseurNombresRomains.Convertir(nombreArabe);
+
+            // ALORS on obtient 'XX' plus <nombreArabe> -20> fois 'I'
+            var attendu = "XX" + new string('I', nombreArabe - 20);
+            
+        }
+
+        [Theory]
+        [InlineData(25)]
+        [InlineData(26)]
+        [InlineData(27)]
+        [InlineData(28)]
+        public void vingtcinqPLusunité(int nombreArabe)
+        {
+            // ETANT DONNE un nombre compris entre 25 et 28
+            // QUAND on le convertit en nombre romain
+            var resultat = ConvertisseurNombresRomains.Convertir(nombreArabe);
+
+            // ALORS on obtient 'XXV' plus <nombreArabe> -25> fois 'I'
+            var attendu = "XXV" + new string('I', nombreArabe - 20);
+
+        }
+
+        [Theory]
+        [InlineData(30)]
+        [InlineData(31)]
+        [InlineData(32)]
+        [InlineData(33)]
+        public void trentePlusunité(int nombreArabe)
+        {
+            // ETANT DONNE un nombre compris entre 30 et 33
+            // QUAND on le convertit en nombre romain
+            var resultat = ConvertisseurNombresRomains.Convertir(nombreArabe);
+
+            // ALORS on obtient 'XXX' plus <nombreArabe> -30> fois 'I'
+            var attendu = "XXX" + new string('I', nombreArabe - 30);
+
+        }
+
+
+
 
 
         [Fact]
@@ -390,6 +441,61 @@ namespace NombresRomains.test
             var resultat = Convertir(28);
             // ALORS on obtient 'XXVIII'
             Assert.Equal("XXVIII", resultat);
+        }
+
+        [Fact]
+        public void Test29()
+        {
+            //ETANT DONNER un nombre <nombreArabe> qui est égal à 29
+            const int nombreArabe = 29;
+            //QUAND on le convertit en nombre romains
+            var resultat = Convertir(29);
+            // ALORS on obtient 'XXIX'
+            Assert.Equal("XXIX", resultat);
+        }
+
+        [Fact]
+        public void Test30()
+        {
+            //ETANT DONNER un nombre <nombreArabe> qui est égal à 30
+            const int nombreArabe = 30;
+            //QUAND on le convertit en nombre romains
+            var resultat = Convertir(30);
+            // ALORS on obtient 'XXX'
+            Assert.Equal("XXX", resultat);
+        }
+
+        [Fact]
+        public void Test31()
+        {
+            //ETANT DONNER un nombre <nombreArabe> qui est égal à 31
+            const int nombreArabe = 31;
+            //QUAND on le convertit en nombre romains
+            var resultat = Convertir(31);
+            // ALORS on obtient 'XXXI'
+            Assert.Equal("XXXI", resultat);
+        }
+
+        [Fact]
+        public void Test32()
+        {
+            //ETANT DONNER un nombre <nombreArabe> qui est égal à 32
+            const int nombreArabe = 32;
+            //QUAND on le convertit en nombre romains
+            var resultat = Convertir(32);
+            // ALORS on obtient 'XXXII'
+            Assert.Equal("XXXII", resultat);
+        }
+
+        [Fact]
+        public void Test33()
+        {
+            //ETANT DONNER un nombre <nombreArabe> qui est égal à 33
+            const int nombreArabe = 33;
+            //QUAND on le convertit en nombre romains
+            var resultat = Convertir(33);
+            // ALORS on obtient 'XXXIII'
+            Assert.Equal("XXXIII", resultat);
         }
     }
 }
