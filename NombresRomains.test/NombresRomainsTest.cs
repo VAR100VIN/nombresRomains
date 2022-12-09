@@ -77,6 +77,18 @@ namespace NombresRomains.test
             //ALORS on obtient 'IV'
             Assert.Equal("IV", resultat);
         }
+        [Fact]
+        public void Test5()
+        {
+            //ETANT un nombre <nombreArabe> compris entre 5 et 5 
+            const int nombreArabe = 5;
+
+            //QUAND on le convertit en nombres romains
+            var resultat = Convertir(5);
+
+            //ALORS on obtient 'V' plus nombre <nombreArabe - 5> fois 'I'
+            Assert.Equal("V", resultat);
+        }
 
 
 
