@@ -114,5 +114,17 @@ namespace NombresRomains.test
             Assert.Equal("VII", resultat);
         }
 
+        [Fact]
+        public void Test8()
+        {
+            //ETANT DONNE le nombre 8
+            const int nombreArabe = 8;
+
+            //QUAND on le convertit en nombres romains
+            var resultat = Convertir(8);
+
+            //ALORS on obtient 'VIII'
+            Assert.Equal("VIII", resultat);
+        }
     }
 }
