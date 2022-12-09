@@ -281,5 +281,16 @@ namespace NombresRomains.test
             // ALORS on obtient 'XVIII'
             Assert.Equal("XVIII", resultat);
         }
+
+        [Fact]
+        public void Test19()
+        {
+            //ETANT DONNER un nombre <nombreArabe> qui est égal à 19 
+            const int nombreArabe = 19;
+            //QUAND on le convertit en nombre romains
+            var resultat = Convertir(19);
+            // ALORS on obtient 'XIX'
+            Assert.Equal("XIX", resultat);
+        }
     }
 }
