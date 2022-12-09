@@ -8,6 +8,7 @@
             => nombreArabe switch
             {
                 <= 3 => new string('I', nombreArabe),
+                4 => "IV",
 
             };
 

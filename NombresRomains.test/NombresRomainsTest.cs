@@ -3,8 +3,8 @@ using static NombresRomains.ConvertisseurNombresRomains;
 namespace NombresRomains.test
 {
     public class NombresRomainsTest
-    {   
-        
+    {
+
 
         [Theory]
         [InlineData(1)]
@@ -21,7 +21,7 @@ namespace NombresRomains.test
             Assert.Equal(attendu, resultat);
         }
 
-      
+
 
         [Fact]
         public void Test1()
@@ -64,8 +64,21 @@ namespace NombresRomains.test
             Assert.Equal("III", resultat);
 
         }
+        [Fact]
+        public void Test4()
+        {
+            //ETANT DONNE le nombre 4
+            const int nombreArabe = 4;
 
-       
-        
+
+            //QUAND on le convertit en nombres romains
+            var resultat = Convertir(4);
+
+            //ALORS on obtient 'IV'
+            Assert.Equal("IV", resultat);
+        }
+
+
+
     }
 }
