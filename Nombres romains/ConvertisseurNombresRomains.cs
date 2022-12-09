@@ -16,6 +16,7 @@ namespace NombresRomains
                 <= 13 => "X" + new string('I', nombreArabe - 10),
                    14 => "XIV",
                 <= 18 => "XV" + new string('I', nombreArabe - 15),
+                   19 => "XIX",
 
             };
 

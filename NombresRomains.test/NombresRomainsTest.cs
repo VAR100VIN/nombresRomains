@@ -52,6 +52,20 @@ namespace NombresRomains.test
            
         }
 
+        [Theory]
+        [InlineData(15)]
+        [InlineData(16)]
+        [InlineData(17)]
+        [InlineData(18)]
+        public void TestUnité15161718(int nombreArabe)
+        {
+            // ETANT DONNE un nombre <n> compris entre 15 et 18
+            // QUAND on le convertit en nombre romain
+            var resultat = ConvertisseurNombresRomains.Convertir(nombreArabe);
+            // ALORS on obtient "XV" suivi de <n> fois 'I'
+            var attendu = "XV" + new string('I', nombreArabe - 15);
+           
+        }
 
 
         [Fact]
@@ -224,5 +238,48 @@ namespace NombresRomains.test
             Assert.Equal("XIV", resultat);
         }
 
+        [Fact]
+        public void Test15()
+        {
+            //ETANT DONNER un nombre <nombreArabe> qui est égal à 15
+            const int nombreArabe = 15;
+            //QUAND on le convertit en nombre romains
+            var resultat = Convertir(15);
+            // ALORS on obtient 'XV'
+            Assert.Equal("XV", resultat);
+        }
+
+        [Fact]
+        public void Test16()
+        {
+            //ETANT DONNER un nombre <nombreArabe> qui est égal à 16
+            const int nombreArabe = 16;
+            //QUAND on le convertit en nombre romains
+            var resultat = Convertir(16);
+            // ALORS on obtient 'XVI'
+            Assert.Equal("XVI", resultat);
+        }
+
+        [Fact]
+        public void Test17()
+        {
+            //ETANT DONNER un nombre <nombreArabe> qui est égal à 17
+            const int nombreArabe = 17;
+            //QUAND on le convertit en nombre romains
+            var resultat = Convertir(17);
+            // ALORS on obtient 'XVII'
+            Assert.Equal("XVII", resultat);
+        }
+
+        [Fact]
+        public void Test18()
+        {
+            //ETANT DONNER un nombre <nombreArabe> qui est égal à 18
+            const int nombreArabe = 18;
+            //QUAND on le convertit en nombre romains
+            var resultat = Convertir(18);
+            // ALORS on obtient 'XVIII'
+            Assert.Equal("XVIII", resultat);
+        }
     }
 }
