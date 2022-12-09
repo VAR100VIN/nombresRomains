@@ -36,7 +36,21 @@ namespace NombresRomains.test
             var attendu = 'V' + new string('I', nombreArabe - 5);
         }
 
+        [Theory]
+        [InlineData(10)]
+        [InlineData(11)]
+        [InlineData(12)]
+        [InlineData(13)]
+        public void TestdixPlusunité(int nombreArabe)
+        {
+            // ETANT DONNE un nombre <nombreArabe> compris entre 10 et 13
 
+            // QUAND on le convertit en nombre romain
+            var resultat = ConvertisseurNombresRomains.Convertir(nombreArabe);
+            // ALORS on obtient 'X' plus <nombreArabe> -10> fois 'I'
+            var attendu = "X" + new string('I', nombreArabe - 10);
+           
+        }
 
 
 
@@ -154,5 +168,6 @@ namespace NombresRomains.test
             // ALORS on obtient 'IX'
             Assert.Equal("IX", resultat);
         }
+       
     }
 }
