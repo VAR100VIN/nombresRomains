@@ -292,5 +292,49 @@ namespace NombresRomains.test
             // ALORS on obtient 'XIX'
             Assert.Equal("XIX", resultat);
         }
+
+        [Fact]
+        public void Test20()
+        {
+            //ETANT DONNER un nombre <nombreArabe> qui est égal à 20
+            const int nombreArabe = 20;
+            //QUAND on le convertit en nombre romains
+            var resultat = Convertir(20);
+            // ALORS on obtient 'XX'
+            Assert.Equal("XX", resultat);
+        }
+
+        [Fact]
+        public void Test21()
+        {
+            //ETANT DONNER un nombre <nombreArabe> qui est égal à 21
+            const int nombreArabe = 21;
+            //QUAND on le convertit en nombre romains
+            var resultat = Convertir(21);
+            // ALORS on obtient 'XXI'
+            Assert.Equal("XXI", resultat);
+        }
+
+        [Fact]
+        public void Test22()
+        {
+            //ETANT DONNER un nombre <nombreArabe> qui est égal à 22
+            const int nombreArabe = 22;
+            //QUAND on le convertit en nombre romains
+            var resultat = Convertir(22);
+            // ALORS on obtient 'XXII'
+            Assert.Equal("XXII", resultat);
+        }
+
+        [Fact]
+        public void Test23()
+        {
+            //ETANT DONNER un nombre <nombreArabe> qui est égal à 23
+            const int nombreArabe = 23;
+            //QUAND on le convertit en nombre romains
+            var resultat = Convertir(23);
+            // ALORS on obtient 'XXIII'
+            Assert.Equal("XXIII", resultat);
+        }
     }
 }
