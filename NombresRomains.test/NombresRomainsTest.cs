@@ -95,7 +95,7 @@ namespace NombresRomains.test
             var resultat = ConvertisseurNombresRomains.Convertir(nombreArabe);
 
             // ALORS on obtient 'XXV' plus <nombreArabe> -25> fois 'I'
-            var attendu = "XXV" + new string('I', nombreArabe - 20);
+            var attendu = "XXV" + new string('I', nombreArabe - 25);
 
         }
 
@@ -116,50 +116,6 @@ namespace NombresRomains.test
         }
 
 
-
-
-
-        [Fact]
-        public void Test1()
-        {
-            //ETANT DONNE le nombre 1
-            const int nombreArabe = 1;
-
-            //QUAND on le convertit en nombres romains
-            var resultat = Convertir(1);
-
-            //ALORS on obtient 'I'
-            Assert.Equal("I", resultat);
-        }
-
-
-        [Fact]
-        public void Test2()
-        {
-            //ETANT DONNE le nombre 2
-            const int nombreArabe = 2;
-
-            //QUAND on le convertit en nombres romains
-            var resultat = Convertir(2);
-
-            //ALORS on obtient 'II'
-            Assert.Equal("II", resultat);
-
-        }
-
-        [Fact]
-        public void Test3()
-        {
-            //ETANT DONNE le nombre 3
-            const int nombreArabe = 3;
-
-            //QUAND on le convertit en nombres romains
-            var resultat = Convertir(3);
-
-            //ALORS on obtient 'III'
-            Assert.Equal("III", resultat);
-
-        }
         [Fact]
         public void Test4()
         {
@@ -173,55 +129,7 @@ namespace NombresRomains.test
             //ALORS on obtient 'IV'
             Assert.Equal("IV", resultat);
         }
-        [Fact]
-        public void Test5()
-        {
-            //ETANT un nombre <nombreArabe> compris entre 5 et 5 
-            const int nombreArabe = 5;
-
-            //QUAND on le convertit en nombres romains
-            var resultat = Convertir(5);
-
-            //ALORS on obtient 'V' plus nombre <nombreArabe - 5> fois 'I'
-            Assert.Equal("V", resultat);
-        }
-        public void Test6()
-        {
-            //ETANT DONNE le nombre 6
-            const int nombreArabe = 6;
-
-            //QUAND on le convertit en nombres romains
-            var resultat = Convertir(6);
-
-            //ALORS on obtient 'VI'
-            Assert.Equal("VI", resultat);
-        }
-
-        [Fact]
-        public void Test7()
-        {
-            //ETANT DONNE le nombre 7
-            const int nombreArabe = 7;
-
-            //QUAND on le convertit en nombres romains
-            var resultat = Convertir(7);
-
-            //ALORS on obtient 'VII'
-            Assert.Equal("VII", resultat);
-        }
-
-        [Fact]
-        public void Test8()
-        {
-            //ETANT DONNE le nombre 8
-            const int nombreArabe = 8;
-
-            //QUAND on le convertit en nombres romains
-            var resultat = Convertir(8);
-
-            //ALORS on obtient 'VIII'
-            Assert.Equal("VIII", resultat);
-        }
+       
 
         [Fact]
         public void Test9()
@@ -234,50 +142,8 @@ namespace NombresRomains.test
             Assert.Equal("IX", resultat);
         }
 
-        [Fact]
-        public void Test10()
-        {
-            //ETANT DONNER un nombre <nombreArabe> qui est égal à 10 
-            const int nombreArabe = 10;
-            //QUAND on le convertit en nombre romains
-            var resultat = Convertir(10);
-            // ALORS on obtient 'X'
-            Assert.Equal("X", resultat);
-        }
-
-        [Fact]
-        public void Test11()
-        {
-            //ETANT DONNER un nombre <nombreArabe> qui est égal à 11
-            const int nombreArabe = 11;
-            //QUAND on le convertit en nombre romains
-            var resultat = Convertir(11);
-            // ALORS on obtient 'XI'
-            Assert.Equal("XI", resultat);
-        }
-
-        [Fact]
-        public void Test12()
-        {
-            //ETANT DONNER un nombre <nombreArabe> qui est égal à 12
-            const int nombreArabe = 12;
-            //QUAND on le convertit en nombre romains
-            var resultat = Convertir(12);
-            // ALORS on obtient 'XII'
-            Assert.Equal("XII", resultat);
-        }
-
-        [Fact]
-        public void Test13()
-        {
-            //ETANT DONNER un nombre <nombreArabe> qui est égal à 13
-            const int nombreArabe = 13;
-            //QUAND on le convertit en nombre romains
-            var resultat = Convertir(13);
-            // ALORS on obtient 'XIII'
-            Assert.Equal("XIII", resultat);
-        }
-
+        
+      
         [Fact]
         public void Test14()
         {
@@ -289,49 +155,7 @@ namespace NombresRomains.test
             Assert.Equal("XIV", resultat);
         }
 
-        [Fact]
-        public void Test15()
-        {
-            //ETANT DONNER un nombre <nombreArabe> qui est égal à 15
-            const int nombreArabe = 15;
-            //QUAND on le convertit en nombre romains
-            var resultat = Convertir(15);
-            // ALORS on obtient 'XV'
-            Assert.Equal("XV", resultat);
-        }
-
-        [Fact]
-        public void Test16()
-        {
-            //ETANT DONNER un nombre <nombreArabe> qui est égal à 16
-            const int nombreArabe = 16;
-            //QUAND on le convertit en nombre romains
-            var resultat = Convertir(16);
-            // ALORS on obtient 'XVI'
-            Assert.Equal("XVI", resultat);
-        }
-
-        [Fact]
-        public void Test17()
-        {
-            //ETANT DONNER un nombre <nombreArabe> qui est égal à 17
-            const int nombreArabe = 17;
-            //QUAND on le convertit en nombre romains
-            var resultat = Convertir(17);
-            // ALORS on obtient 'XVII'
-            Assert.Equal("XVII", resultat);
-        }
-
-        [Fact]
-        public void Test18()
-        {
-            //ETANT DONNER un nombre <nombreArabe> qui est égal à 18
-            const int nombreArabe = 18;
-            //QUAND on le convertit en nombre romains
-            var resultat = Convertir(18);
-            // ALORS on obtient 'XVIII'
-            Assert.Equal("XVIII", resultat);
-        }
+      
 
         [Fact]
         public void Test19()
@@ -344,49 +168,7 @@ namespace NombresRomains.test
             Assert.Equal("XIX", resultat);
         }
 
-        [Fact]
-        public void Test20()
-        {
-            //ETANT DONNER un nombre <nombreArabe> qui est égal à 20
-            const int nombreArabe = 20;
-            //QUAND on le convertit en nombre romains
-            var resultat = Convertir(20);
-            // ALORS on obtient 'XX'
-            Assert.Equal("XX", resultat);
-        }
-
-        [Fact]
-        public void Test21()
-        {
-            //ETANT DONNER un nombre <nombreArabe> qui est égal à 21
-            const int nombreArabe = 21;
-            //QUAND on le convertit en nombre romains
-            var resultat = Convertir(21);
-            // ALORS on obtient 'XXI'
-            Assert.Equal("XXI", resultat);
-        }
-
-        [Fact]
-        public void Test22()
-        {
-            //ETANT DONNER un nombre <nombreArabe> qui est égal à 22
-            const int nombreArabe = 22;
-            //QUAND on le convertit en nombre romains
-            var resultat = Convertir(22);
-            // ALORS on obtient 'XXII'
-            Assert.Equal("XXII", resultat);
-        }
-
-        [Fact]
-        public void Test23()
-        {
-            //ETANT DONNER un nombre <nombreArabe> qui est égal à 23
-            const int nombreArabe = 23;
-            //QUAND on le convertit en nombre romains
-            var resultat = Convertir(23);
-            // ALORS on obtient 'XXIII'
-            Assert.Equal("XXIII", resultat);
-        }
+       
 
         [Fact]
         public void Test24()
@@ -399,49 +181,7 @@ namespace NombresRomains.test
             Assert.Equal("XXIV", resultat);
         }
 
-        [Fact]
-        public void Test25()
-        {
-            //ETANT DONNER un nombre <nombreArabe> qui est égal à 25
-            const int nombreArabe = 25;
-            //QUAND on le convertit en nombre romains
-            var resultat = Convertir(25);
-            // ALORS on obtient 'XXV'
-            Assert.Equal("XXV", resultat);
-        }
-
-        [Fact]
-        public void Test26()
-        {
-            //ETANT DONNER un nombre <nombreArabe> qui est égal à 26
-            const int nombreArabe = 26;
-            //QUAND on le convertit en nombre romains
-            var resultat = Convertir(26);
-            // ALORS on obtient 'XXVI'
-            Assert.Equal("XXVI", resultat);
-        }
-
-        [Fact]
-        public void Test27()
-        {
-            //ETANT DONNER un nombre <nombreArabe> qui est égal à 27
-            const int nombreArabe = 27;
-            //QUAND on le convertit en nombre romains
-            var resultat = Convertir(27);
-            // ALORS on obtient 'XXVII'
-            Assert.Equal("XXVII", resultat);
-        }
-
-        [Fact]
-        public void Test28()
-        {
-            //ETANT DONNER un nombre <nombreArabe> qui est égal à 28
-            const int nombreArabe = 28;
-            //QUAND on le convertit en nombre romains
-            var resultat = Convertir(28);
-            // ALORS on obtient 'XXVIII'
-            Assert.Equal("XXVIII", resultat);
-        }
+       
 
         [Fact]
         public void Test29()
@@ -454,48 +194,6 @@ namespace NombresRomains.test
             Assert.Equal("XXIX", resultat);
         }
 
-        [Fact]
-        public void Test30()
-        {
-            //ETANT DONNER un nombre <nombreArabe> qui est égal à 30
-            const int nombreArabe = 30;
-            //QUAND on le convertit en nombre romains
-            var resultat = Convertir(30);
-            // ALORS on obtient 'XXX'
-            Assert.Equal("XXX", resultat);
-        }
-
-        [Fact]
-        public void Test31()
-        {
-            //ETANT DONNER un nombre <nombreArabe> qui est égal à 31
-            const int nombreArabe = 31;
-            //QUAND on le convertit en nombre romains
-            var resultat = Convertir(31);
-            // ALORS on obtient 'XXXI'
-            Assert.Equal("XXXI", resultat);
-        }
-
-        [Fact]
-        public void Test32()
-        {
-            //ETANT DONNER un nombre <nombreArabe> qui est égal à 32
-            const int nombreArabe = 32;
-            //QUAND on le convertit en nombre romains
-            var resultat = Convertir(32);
-            // ALORS on obtient 'XXXII'
-            Assert.Equal("XXXII", resultat);
-        }
-
-        [Fact]
-        public void Test33()
-        {
-            //ETANT DONNER un nombre <nombreArabe> qui est égal à 33
-            const int nombreArabe = 33;
-            //QUAND on le convertit en nombre romains
-            var resultat = Convertir(33);
-            // ALORS on obtient 'XXXIII'
-            Assert.Equal("XXXIII", resultat);
-        }
+       
     }
 }
