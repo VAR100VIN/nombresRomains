@@ -1,0 +1,24 @@
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\Nombres romains\Nombres romains\bin\Debug\net7.0\NombresRomains.deps.json
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\Nombres romains\Nombres romains\bin\Debug\net7.0\NombresRomains.dll
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\Nombres romains\Nombres romains\bin\Debug\net7.0\NombresRomains.pdb
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\Nombres romains\Nombres romains\obj\Debug\net7.0\NombresRomains.csproj.AssemblyReference.cache
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\Nombres romains\Nombres romains\obj\Debug\net7.0\NombresRomains.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\Nombres romains\Nombres romains\obj\Debug\net7.0\NombresRomains.AssemblyInfoInputs.cache
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\Nombres romains\Nombres romains\obj\Debug\net7.0\NombresRomains.AssemblyInfo.cs
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\Nombres romains\Nombres romains\obj\Debug\net7.0\NombresRomains.csproj.CoreCompileInputs.cache
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\Nombres romains\Nombres romains\obj\Debug\net7.0\NombresRomains.dll
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\Nombres romains\Nombres romains\obj\Debug\net7.0\refint\NombresRomains.dll
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\Nombres romains\Nombres romains\obj\Debug\net7.0\NombresRomains.pdb
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\Nombres romains\Nombres romains\obj\Debug\net7.0\ref\NombresRomains.dll
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\NombresRomainsDs\Nombres romains\obj\Debug\net7.0\NombresRomains.csproj.AssemblyReference.cache
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\NombresRomainsDs\Nombres romains\obj\Debug\net7.0\NombresRomains.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\NombresRomainsDs\Nombres romains\obj\Debug\net7.0\NombresRomains.AssemblyInfoInputs.cache
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\NombresRomainsDs\Nombres romains\obj\Debug\net7.0\NombresRomains.AssemblyInfo.cs
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\NombresRomainsDs\Nombres romains\obj\Debug\net7.0\NombresRomains.csproj.CoreCompileInputs.cache
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\NombresRomainsDs\Nombres romains\obj\Debug\net7.0\NombresRomains.dll
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\NombresRomainsDs\Nombres romains\obj\Debug\net7.0\refint\NombresRomains.dll
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\NombresRomainsDs\Nombres romains\obj\Debug\net7.0\NombresRomains.pdb
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\NombresRomainsDs\Nombres romains\bin\Debug\net7.0\NombresRomains.deps.json
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\NombresRomainsDs\Nombres romains\bin\Debug\net7.0\NombresRomains.dll
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\NombresRomainsDs\Nombres romains\bin\Debug\net7.0\NombresRomains.pdb
+C:\Users\Hugol\OneDrive\Bureau\Cours-EPSI-2023\C#\NombresRomainsDs\Nombres romains\obj\Debug\net7.0\ref\NombresRomains.dll
