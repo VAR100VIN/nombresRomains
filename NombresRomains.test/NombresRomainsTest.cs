@@ -213,5 +213,16 @@ namespace NombresRomains.test
             Assert.Equal("XIII", resultat);
         }
 
+        [Fact]
+        public void Test14()
+        {
+            //ETANT DONNER un nombre <nombreArabe> qui est égal à 14
+            const int nombreArabe = 14;
+            //QUAND on le convertit en nombre romains
+            var resultat = Convertir(14);
+            // ALORS on obtient 'XIV'
+            Assert.Equal("XIV", resultat);
+        }
+
     }
 }
