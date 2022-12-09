@@ -336,5 +336,16 @@ namespace NombresRomains.test
             // ALORS on obtient 'XXIII'
             Assert.Equal("XXIII", resultat);
         }
+
+        [Fact]
+        public void Test24()
+        {
+            //ETANT DONNER un nombre <nombreArabe> qui est égal à 24
+            const int nombreArabe = 24;
+            //QUAND on le convertit en nombre romains
+            var resultat = Convertir(24);
+            // ALORS on obtient 'XXIV'
+            Assert.Equal("XXIV", resultat);
+        }
     }
 }
