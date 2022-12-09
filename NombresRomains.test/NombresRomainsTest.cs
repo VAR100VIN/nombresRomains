@@ -89,6 +89,17 @@ namespace NombresRomains.test
             //ALORS on obtient 'V' plus nombre <nombreArabe - 5> fois 'I'
             Assert.Equal("V", resultat);
         }
+        public void Test6()
+        {
+            //ETANT DONNE le nombre 6
+            const int nombreArabe = 6;
+
+            //QUAND on le convertit en nombres romains
+            var resultat = Convertir(6);
+
+            //ALORS on obtient 'VI'
+            Assert.Equal("VI", resultat);
+        }
 
 
 
