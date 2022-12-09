@@ -41,7 +41,7 @@ namespace NombresRomains.test
         [InlineData(11)]
         [InlineData(12)]
         [InlineData(13)]
-        public void TestdixPlusunité(int nombreArabe)
+        public void TestdixPlusunité(int nombreArabe)       
         {
             // ETANT DONNE un nombre <nombreArabe> compris entre 10 et 13
 
@@ -168,6 +168,50 @@ namespace NombresRomains.test
             // ALORS on obtient 'IX'
             Assert.Equal("IX", resultat);
         }
-       
+
+        [Fact]
+        public void Test10()
+        {
+            //ETANT DONNER un nombre <nombreArabe> qui est égal à 10 
+            const int nombreArabe = 10;
+            //QUAND on le convertit en nombre romains
+            var resultat = Convertir(10);
+            // ALORS on obtient 'X'
+            Assert.Equal("X", resultat);
+        }
+
+        [Fact]
+        public void Test11()
+        {
+            //ETANT DONNER un nombre <nombreArabe> qui est égal à 11
+            const int nombreArabe = 11;
+            //QUAND on le convertit en nombre romains
+            var resultat = Convertir(11);
+            // ALORS on obtient 'XI'
+            Assert.Equal("XI", resultat);
+        }
+
+        [Fact]
+        public void Test12()
+        {
+            //ETANT DONNER un nombre <nombreArabe> qui est égal à 12
+            const int nombreArabe = 12;
+            //QUAND on le convertit en nombre romains
+            var resultat = Convertir(12);
+            // ALORS on obtient 'XII'
+            Assert.Equal("XII", resultat);
+        }
+
+        [Fact]
+        public void Test13()
+        {
+            //ETANT DONNER un nombre <nombreArabe> qui est égal à 13
+            const int nombreArabe = 13;
+            //QUAND on le convertit en nombre romains
+            var resultat = Convertir(13);
+            // ALORS on obtient 'XIII'
+            Assert.Equal("XIII", resultat);
+        }
+
     }
 }
